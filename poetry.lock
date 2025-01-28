@@ -3455,15 +3455,15 @@ files = [
 
 [[package]]
 name = "xarray"
-version = "2025.1.1"
+version = "2024.11.0"
 description = "N-D labeled arrays and datasets in Python"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 markers = "python_version <= \"3.11\" or python_version >= \"3.12\""
 files = [
-    {file = "xarray-2025.1.1-py3-none-any.whl", hash = "sha256:8a69d17c1e4ad09664fd0bc2dbb398e7368eda25bd19456fb919a6eb6490fb72"},
-    {file = "xarray-2025.1.1.tar.gz", hash = "sha256:1a3011d00ca92a94ba31b297c2eccd310b87a7dacf5acc8d0468385d4a834342"},
+    {file = "xarray-2024.11.0-py3-none-any.whl", hash = "sha256:6ee94f63ddcbdd0cf3909d1177f78cdac756640279c0e32ae36819a89cdaba37"},
+    {file = "xarray-2024.11.0.tar.gz", hash = "sha256:1ccace44573ddb862e210ad3ec204210654d2c750bec11bbe7d842dfc298591f"},
 ]
 
 [package.dependencies]
@@ -3474,7 +3474,7 @@ pandas = ">=2.1"
 [package.extras]
 accel = ["bottleneck", "flox", "numba (>=0.54)", "numbagg", "opt_einsum", "scipy"]
 complete = ["xarray[accel,etc,io,parallel,viz]"]
-dev = ["hypothesis", "jinja2", "mypy", "pre-commit", "pytest", "pytest-cov", "pytest-env", "pytest-timeout", "pytest-xdist", "ruff (>=0.8.0)", "sphinx", "sphinx_autosummary_accessors", "xarray[complete]"]
+dev = ["hypothesis", "jinja2", "mypy", "pre-commit", "pytest", "pytest-cov", "pytest-env", "pytest-timeout", "pytest-xdist", "ruff", "sphinx", "sphinx_autosummary_accessors", "xarray[complete]"]
 etc = ["sparse"]
 io = ["cftime", "fsspec", "h5netcdf", "netCDF4", "pooch", "pydap", "scipy", "zarr"]
 parallel = ["dask[complete]"]
