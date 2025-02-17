@@ -14,6 +14,9 @@ First you will need to install poetry on your computer. This is easily done foll
 
 https://python-poetry.org/docs/#installing-with-the-official-installer
 
+Note that it may be necessary to add poerty to the path on your computer. Some information on this 
+is included within the linked instructions, but you may need to look up specific for your operating system.
+
 Once this is done, you need to clone the git repository. For informatoin on how to do this see:
  
  https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
