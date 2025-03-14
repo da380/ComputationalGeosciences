@@ -36,4 +36,4 @@ and similarly for the other notebooks.
 
 ## Running the codes using binder
 
-As an alternative to running the codes locally, you can use the free online service ```https://mybinder.org/```
+As an alternative to running the codes locally, you can use the free online service https://mybinder.org/
