@@ -38,5 +38,9 @@ and similarly for the other notebooks.
 
 As an alternative to running the codes locally, you can use the free online service https://mybinder.org/
 
-To do this, open the website and then copy ```https://github.com/da380/ComputationalGeosciences``` as the URL for the GitHub repository. 
+To do this, open the website and then copy:
+
+```https://github.com/da380/ComputationalGeosciences``` 
+
+as the URL for the GitHub repository. 
 You can then press the launch button and after a minute or so the notebooks will be usuable through your web-browswer. 
