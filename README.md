@@ -33,3 +33,7 @@ You can then launch the notebook for the first lecture by typing:
 poetry run jupyter notebook gravity_lecture/gravity.ipynb 
 ```
 and similarly for the other notebooks. 
+
+## Running the codes using binder
+
+As an alternative to running the codes locally, you can use the free online service ```https://mybinder.org/```
