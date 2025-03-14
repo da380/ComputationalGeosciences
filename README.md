@@ -42,5 +42,5 @@ To do this, open the website and then copy:
 
 ```https://github.com/da380/ComputationalGeosciences``` 
 
-as the URL for the GitHub repository. 
-You can then press the launch button and after a minute or so the notebooks will be usuable through your web-browswer. 
+as the URL for the GitHub repository. Next you must set the **Git ref** box to ```main```.  You can then press the launch button and after a
+minute or so the notebooks will open and be usuable through your web-browswer. 
