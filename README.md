@@ -1,35 +1,40 @@
 # Computational Geosciences
 
-This repository contains all material for my lectures within the Part III Computational Geosciences option. 
+This repository contains the lecture and practical material for my section of the Part II Computational Geosciences option. 
 
-Lecture notes and all codes are combined into Jupyter notebooks. For each lecture a complete version of the notebook is provided with solutions to the practical exercises. 
+## Running in Google Colab
 
-## Installation 
-
-The python codes require a number of libraries. Installation is recomended using the **poetry dependency manager**:
-
-https://python-poetry.org/
-
-First you will need to install poetry on your computer. This is easily done following the instructions at:
-
-https://python-poetry.org/docs/#installing-with-the-official-installer
-
-Note that it may be necessary to add poerty to the path on your computer. Some information on this 
-is included within the linked instructions, but you may need to look up specific for your operating system.
-
-Once this is done, you need to clone the git repository. For informatoin on how to do this see:
- 
- https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+The easiest way to run these notebooks is via Google Colab. 
 
 
-Change directory into the repository and then type:
-```
+| Notebook | Run in Colab |
+| :--- | :--- |
+| **Lecture 1** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/da380/ComputationalGeosciences/blob/main/gravity_lecture/gravity.ipynb) |
+| **Lecture 2** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/da380/ComputationalGeosciences/blob/main/sea_level_lecture/sea_level.ipynb) |
+| **Lecture 1 with solutions** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/da380/ComputationalGeosciences/blob/main/gravity_lecture/gravity_complete.ipynb) |
+| **Lecture 2 with solutions** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/da380/ComputationalGeosciences/blob/main/sea_level_lecture/sea_level_complete.ipynb) |
+
+
+> **How to save your work:** > When you open these links, you are in a "playground" mode. To save your own edits and solutions, go to **File > Save a copy in Drive**. This will create a copy in your personal Google Drive that you can edit and save indefinitely.
+
+--- 
+
+## Local Installation
+
+If you prefer to work locally, this project uses **Poetry** for dependency management.
+
+### 1. Install Poetry
+If you do not have Poetry installed, follow the [official documentation](https://python-poetry.org/docs/#installation).
+
+### 2. Clone and Setup
+Clone the repository and install the environment:
+```bash
+git clone [https://github.com/da380/QCES_data_assimilation.git](https://github.com/da380/ComputationalGeosciences.git)
+cd ComputationalGeosciences
 poetry install
+poetry run jupyter notebook
 ```
-This creates a new virtual environment which has all necessary packages installed. 
 
-You can then launch the notebook for the first lecture by typing:
-```
-poetry run jupyter notebook gravity_lecture/gravity.ipynb 
-```
-and similarly for the other notebooks. 
+---
+
+
